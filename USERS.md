@@ -12,3 +12,15 @@ Get an user's banner (another redirect)
 ```
 GET /users/jeffalo/banner
 ```
+
+Edit an user's sidebar
+```
+PUT /users/jeffalo/sidebar
+BODY [insert body here aaaa]
+```
+
+Edit an user's profile color
+```
+POST /users/jeffalo/color
+BODY {"color": "yellow"}
+```
