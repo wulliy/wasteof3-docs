@@ -1,3 +1,8 @@
+Gets the count of how many users have registered an account on wasteof.money
+```
+GET /user/
+```
+
 Get an user's profile information as JSON
 ```
 GET /users/jeffalo/__data.json
