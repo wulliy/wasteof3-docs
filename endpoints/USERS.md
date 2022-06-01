@@ -1,6 +1,6 @@
 Gets the count of how many users have registered an account on wasteof.money
 ```
-GET /user/
+GET /users/
 ```
 
 Get an user's profile information as JSON
