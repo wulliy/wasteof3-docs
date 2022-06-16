@@ -29,3 +29,8 @@ Edit an user's profile color
 POST /users/jeffalo/color
 BODY {"color": "yellow"}
 ```
+
+??
+```
+GET /users/jeffalo/admin/__data.json
+```
