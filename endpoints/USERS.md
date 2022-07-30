@@ -8,7 +8,7 @@ Get an user's profile information as JSON
 GET /users/jeffalo/__data.json
 ```
 
-Get an user's profile picture (This will redirect to the [prod API site](https://api.wasteof.money))
+Get an user's profile picture (This will redirect to the [production API site](https://api.wasteof.money))
 ```
 GET /users/jeffalo/picture
 ```
