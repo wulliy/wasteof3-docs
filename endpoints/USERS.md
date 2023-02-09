@@ -21,7 +21,21 @@ GET /users/jeffalo/banner
 Edit an user's sidebar
 ```
 PUT /users/jeffalo/sidebar
-BODY [insert body here aaaa]
+BODY ...
+```
+
+```json
+{
+    "sidebar": [
+        {
+            "type": "TextBlock",
+            "data": {
+                "title": "i am a title",
+                "text": "and i am text"
+            }
+        }
+    ]
+}
 ```
 
 Edit an user's profile color
@@ -30,7 +44,3 @@ POST /users/jeffalo/color
 BODY {"color": "yellow"}
 ```
 
-??
-```
-GET /users/jeffalo/admin/__data.json
-```
